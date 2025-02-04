@@ -7,15 +7,31 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer{
+  .container {
+    @apply m-auto
   }
-}
+  .parentHome {
+    @apply flex place-items-end justify-around flex-col sm:flex-row text-white ;
+  }
+  .liHomeIcon {
+    @apply bg-main p-1 rounded-md hover:bg-secandery;
+  }
+  .liHeader {
+    @apply bg-main px-[5px] py-[5px] rounded-[10px] hover:bg-secandery;
+  }
+  .liHeaderLinks {
+    @apply text-[14px] sm:text-[16px] p-[5px];
+  }
+  .chaidCalls {
+    @apply py-[10px] bg-main w-[200px] rounded text-center my-[20px]
+  }
+  .linkCall {
+    @apply bg-[#ffffff] px-[10px] rounded text-[#2b6c82]
+  }
 
+}
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #181e2a;
+  
 }
