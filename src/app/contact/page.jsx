@@ -10,7 +10,7 @@ import Form from "./form"
 const Contact = () => {
  
   return (
-      <div className='text-white'>
+      <div className='text-white mb-[150px]'>
       
       <div className='container w-[800px ]'>
         <h3 className="mt-[70px] text-center text-[25px] mb-[50px]">Contact me</h3>
@@ -45,16 +45,7 @@ const Contact = () => {
           </div>
           <div className='message max-w-full m-auto '>
             <Form/>
-            {/* <form>
-
-              <input className=" block bg-inherit border border-gray-50 px-[20px] my-[20px] w-[300px]  md:w-[450px] "
-                placeholder="your full Name" type="text" required />
-              <input className=" block bg-inherit border border-gray-50 px-[20px] my-[20px] rounded w-[300px] md:w-[450px] "
-                placeholder="yore Email" type="email" required />
-              <textarea className="rounded w-[300px] md:w-[450px]  min-h-[200px] block bg-inherit border border-gray-50 px-[20px] my-[20px]"
-                placeholder="your message" required></textarea>
-              <button className="bg-main block px-[10px] py-[3px]  rounded-full my-[30px] mx-auto" type="submit">Send Message</button>
-            </form> */}
+           
           </div>
           
         </div>
