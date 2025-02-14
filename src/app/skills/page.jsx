@@ -13,10 +13,10 @@ import { FaGithubSquare } from "react-icons/fa";
 const Skills = () => {
   return (
     <section>
-      <div className='container text-white'>
+      <div className='container text-white mt-[50px]'>
         <h2 className="text-[25px] pt-[100px] pb-[30px] text-center">My Skills</h2>
-        <div className="skils w-[700px] m-auto bg-[#0c1524] max-w-full">
-          <div className="flex  flex-wrap flex-col max-w-full sm:flex-row">
+        <div className="skils w-[700px] m-auto max-w-full">
+          <div className="flex  flex-wrap  max-w-full sm:flex-row">
 
             <div className="flex w-[150px] px-[10px] py-[30px] max-w-full  m-auto" > 
               <span><FaHtml5 className="text-blue-500 text-[50px] " /></span>
