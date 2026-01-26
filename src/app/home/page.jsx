@@ -21,7 +21,7 @@ const Index = () => {
         <h2 className="text-[30px]">
           Hi! I'm Mahmoud Hussein Abdelmawjoud
           <span className="text-[30px]"> I'm <Typewriter
-            words={["FrontEnd developer "]}
+            words={["Full stack developer "]}
             loop= {true}
           /> </span>
           <Cursor/>
@@ -35,8 +35,8 @@ const Index = () => {
         </ul>
         </div>
       </div>
-      <div className="myImage w-[200px] m-auto sm:w-[300px] pt-[50px] max-w-full ">
-        <Image className="w-[100%] animate-[moveTop_1s_ease-in-out_infinite]" src={myImage} alt="my image"/>
+      <div className="myImage w-[200px] m-auto sm:w-[300px] pt-[50px] max-w-full z-0">
+        <Image className="w-[100%] animate-[moveTop_1s_ease-in-out_infinite] " src={myImage} alt="my image"/>
       </div>
     </div>
   </section>
