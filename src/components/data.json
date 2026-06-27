@@ -8,7 +8,7 @@
         "width": 250,
         "height": 150,
         "liveDemo": "https://app-491f1.web.app/",
-        "githup": "https://github.com/mahmoud-Eng1/amazon-app"
+        "githubUrl": "https://github.com/mahmoud-Eng1/amazon-app"
     },
     {
         "id": 2,
@@ -19,7 +19,7 @@
         "width": 250,
         "height": 150,
         "liveDemo": "https://shoping-laptops.web.app/",
-        "githup": " https://github.com/mahmoud-Eng1/shoping-laptops"
+        "githubUrl": " https://github.com/mahmoud-Eng1/shoping-laptops"
     },
     {
         "id": 3,
@@ -30,7 +30,7 @@
         "width": 250,
         "height": 150,
         "liveDemo": "https://menu-4469a.web.app/",
-        "githup": "https://github.com/mahmoud-Eng1/menu"
+        "githubUrl": "https://github.com/mahmoud-Eng1/menu"
     },
     {
         "id": 4,
@@ -41,7 +41,7 @@
         "alt": "image tuition",
         "height": 150,
         "liveDemo": "https://tuition-ruddy.vercel.app/",
-        "githup": " https://github.com/mahmoud-Eng1/tuition"
+        "githubUrl": " https://github.com/mahmoud-Eng1/tuition"
     },
     {
         "id": 5,
@@ -52,7 +52,7 @@
         "width": 250,
         "height": 150,
         "liveDemo": "https://mahmoud-eng1.github.io/system-crud/",
-        "githup": "https://github.com/mahmoud-Eng1/system-crud"
+        "githubUrl": "https://github.com/mahmoud-Eng1/system-crud"
     },
     {
         "id": 6,
@@ -63,7 +63,7 @@
         "width": 250,
         "height": 150,
         "liveDemo": "https://mahmoud-eng1.github.io/bootstrap/",
-        "githup": "https://github.com/mahmoud-Eng1/bootstrap"
+        "githubUrl": "https://github.com/mahmoud-Eng1/bootstrap"
     },
     
     {
@@ -75,7 +75,7 @@
         "width": 250,
         "height": 150,
         "liveDemo": "https://mahmoud-eng1.github.io/project-2/",
-        "githup": "https://github.com/mahmoud-Eng1/project-2"
+        "githubUrl": "https://github.com/mahmoud-Eng1/project-2"
     },
     
     {
@@ -86,7 +86,28 @@
         "alt": "image portfolio",
         "width": 250,
         "height": 150,
-        "githup": "https://mahmoud-eng1.github.io/portfolio/"
+        "githubUrl": "https://mahmoud-eng1.github.io/portfolio/"
+    },
+    {
+        "id": 9, 
+        "title": "Auth",
+        "discrpt": "Authentication and Authorization created by nodejs-express-mongodb-mongoose and antoher features",
+        "image": "/auth.png",
+        "alt": "image auth",
+        "width": 250,
+        "height": 150,
+        "githubUrl": "https://mahmoud-eng1.github.io/auth_back/"
+    },
+
+    {
+        "id": 10, 
+        "title": "Nova Shop",
+        "discrpt": "E-commrece Backend created by nodejs-express-mongodb-mongoose and antoher features",
+        "image": "/e-comm.jpeg",
+        "alt": "image E-commrece",
+        "width": 250,
+        "height": 150,
+        "githubUrl": "https://mahmoud-eng1.github.io/Nova-shop/"
     }
     
     

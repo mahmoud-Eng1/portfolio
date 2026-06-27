@@ -31,10 +31,12 @@ const Projects = () => {
                   <p className="p-[10px] w-[200px]">{ele.discrpt} </p>
                   <div className="btn">
                     {
-                      ele.title !== "portfolo" && <Link  href={ele.liveDemo}><button className="border bg-main px-[10px] py-[5px] rounded">live Demo</button></Link>
+                      ele.title !== "portfolo" &&
+                      ele.title !== "Nova Shop" &&
+                      ele.title !== "Auth" && (<Link  href={ele.liveDemo}><button className="border bg-main px-[10px] py-[5px] rounded">live Demo</button></Link>
                   
-                    }
-                    <Link href={ele.githup}> <button className="gitBtn border m-4 border-main px-[10px] py-[5px] rounded">Githup</button></Link>
+                    )}
+                    <Link href={ele.githubUrl}> <button className="gitBtn border m-4 border-main px-[10px] py-[5px] rounded">Githup</button></Link>
                     {/* <Link ref={refdemo} href={ele.liveDemo}><button className="border bg-main px-[10px] py-[5px] rounded">live Demo</button></Link> */}
            
             
