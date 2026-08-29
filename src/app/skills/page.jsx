@@ -12,7 +12,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { DiNodejs } from "react-icons/di";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
-
+import { FaDocker } from "react-icons/fa";
 
 const Skills = () => {
   return (
@@ -76,6 +76,11 @@ const Skills = () => {
             <div className=" w-[150px] px-[10px] py-[30px] max-w-full  m-auto">
               <span><FaGithubSquare className="text-white text-[50px]" /></span>
             <p className="p-[10px] text-[20px]">Githup</p>
+            </div>
+
+            <div className=" w-[150px] px-[10px] py-[30px] max-w-full  m-auto">
+              <span><FaDocker className="text-white text-[50px]" /></span>
+            <p className="p-[10px] text-[20px]">Docker</p>
             </div>
               
           </div>

@@ -33,6 +33,7 @@ const Projects = () => {
                     {
                       ele.title !== "portfolo" &&
                       ele.title !== "Nova Shop" &&
+                      ele.title !== "daar el-teb hospital" &&
                       ele.title !== "Auth" && (<Link  href={ele.liveDemo}><button className="border bg-main px-[10px] py-[5px] rounded">live Demo</button></Link>
                   
                     )}
